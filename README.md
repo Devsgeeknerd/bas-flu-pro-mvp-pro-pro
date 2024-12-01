@@ -45,6 +45,24 @@ A estrutura é organizada para refletir claramente a arquitetura MVP:
     * app.dart
   * main.dart
 
+### Explicação da Pasta `core`
+
+Ela é uma parte fundamental da estrutura do projeto, destinada a conter recursos globais e reutilizáveis que não estão diretamente ligados a uma funcionalidade especifica.
+
+Seu objetivo principal é centralizar e organizar elementos comuns do aplicativos, promovendo reutilização, manutenção simplificada e redução de código duplicado.
+
+### Subpastas e Suas Funções
+
+#### Constants
+
+* Contém valores imutáveis e configurações que são usados em todo o aplicativo, como:
+  * **Strings constantes:** Textos usados repetidamente.
+    * Exemplo: mensagens de erro, rótulos de botões, etc.
+  * **Cores:** Paleta de cores padronizada.
+  * **Temas:** Configurações de estilo do aplicativo.
+    * Exemplo: fontes, espaçamentos, etc.
+  * **Dimensões:** Valores de layout fixos, como margens e paddings.
+
 <!-- Informações -->
 ## &#8505; Informações
 
