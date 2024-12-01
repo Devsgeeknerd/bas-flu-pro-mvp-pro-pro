@@ -63,6 +63,13 @@ Seu objetivo principal é centralizar e organizar elementos comuns do aplicativo
     * Exemplo: fontes, espaçamentos, etc.
   * **Dimensões:** Valores de layout fixos, como margens e paddings.
 
+#### Utils
+
+* Contém funções auxiliares ou classes utilitárias que não pertencem a uma funcionalidade especifica:
+  * Formatação de datas ou números.
+  * Manipulação de strings, como truncar, capitalizar.
+  * Validação de entradas do usuário.
+
 <!-- Informações -->
 ## &#8505; Informações
 
