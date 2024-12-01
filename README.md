@@ -7,9 +7,16 @@ A arquitetura MVP organiza o código de maneira a separar responsabilidades, gar
 
 ## Objetivo do Projeto
 
-**Modularidade**: Prover uma estrutura bem definida para organizar pastas e arquivos de forma escalável.
+* **Modularidade:** Prover uma estrutura bem definida para organizar pastas e arquivos de forma escalável.
 
-**Manutenção**: Facilitar a manutenção e a evolução do aplicativo, permitindo alterações rápidas em qualquer camada sem impactos inesperados.
+* **Manutenção:** Facilitar a manutenção e a evolução do aplicativo, permitindo alterações rápidas em qualquer camada sem impactos inesperados.
+
+* **Testabilidade:** Suporte para testes unitários e de integração, assegurando a confiabilidade do aplicativo.
+
+* **Reutilização do Código:** Possibilitar o uso de componentes reutilizáveis em diferentes partes do aplicativo.
+
+* **Separação de Responsabilidades**: Implementar um padrão claro onde:
+  * **Model:** Gerencia os dados e a lógica de negócios.
 
 <!-- Informações -->
 ## &#8505; Informações
