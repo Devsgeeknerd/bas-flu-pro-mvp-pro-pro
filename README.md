@@ -17,6 +17,12 @@ A arquitetura MVP organiza o código de maneira a separar responsabilidades, gar
 
 * **Separação de Responsabilidades**: Implementar um padrão claro onde:
   * **Model:** Gerencia os dados e a lógica de negócios.
+  * **View:** Exibe os dados e interage com o usuário.
+  * **Presenter:** Faz a ponte entre a Model e a View, controlando o fluxo de dados e as interações do usuário.
+
+## Estrutura de Pastas e Arquivos
+
+
 
 <!-- Informações -->
 ## &#8505; Informações
