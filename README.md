@@ -78,6 +78,14 @@ Seu objetivo principal é centralizar e organizar elementos comuns do aplicativo
   * Inputs de texto estilizados.
   * Spinner ou indicadores de carregamento.
 
+#### Services
+
+* Inclui serviços globais ou classes que lidam com funcionalidades como:
+  * Armazenamento local.
+    * Exemplo: cache, banco de dados.
+  * Configuração de analytics ou notificações.
+* Essa pasta também pode conter interfaces e implementações que seguem o princípio da injeção de dependência.
+
 <!-- Informações -->
 ## &#8505; Informações
 
