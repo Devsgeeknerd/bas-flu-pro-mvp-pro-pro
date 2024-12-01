@@ -22,7 +22,28 @@ A arquitetura MVP organiza o código de maneira a separar responsabilidades, gar
 
 ## Estrutura de Pastas e Arquivos
 
+A estrutura é organizada para refletir claramente a arquitetura MVP:
 
+* lib:
+  * core:
+    * constants
+    * utils
+    * partials
+    * services
+  * feature:
+    * feature_name:
+      * data:
+        * models
+        * repositories
+      * presentation:
+        * views
+        * presenters
+      * tests
+  * app:
+    * routes
+    * di
+    * app.dart
+  * main.dart
 
 <!-- Informações -->
 ## &#8505; Informações
