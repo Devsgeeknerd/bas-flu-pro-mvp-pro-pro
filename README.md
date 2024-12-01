@@ -86,7 +86,7 @@ Seu objetivo principal é centralizar e organizar elementos comuns do aplicativo
   * Configuração de analytics ou notificações.
 * Essa pasta também pode conter interfaces e implementações que seguem o princípio da injeção de dependência.
 
-##### Benefícios da Pasta `core`
+### Benefícios da Pasta `core`
 
 * **Centralização:** Todos os recursos globais do projeto ficam organizados em um único local.
 
@@ -95,6 +95,20 @@ Seu objetivo principal é centralizar e organizar elementos comuns do aplicativo
 * **Facilidade de Manutenção:** Alterações em constantes ou partials compartilhados podem ser feitas em um só lugar, refletindo em todo o aplicativo.
 
 * **Escalabilidade:** Estrutura modular que permite adicionar mais funcionalidades sem desorganizar o código.
+
+### Como Usar na Prática
+
+* Sempre que identificar uma funcionalidade ou recurso que será utilizado em varias partes do aplicativo, considere movê-lo para a pasta **core**.
+
+* Mantenha as classes e funções dentro de suas respectivas subpastas para garantir a organização.
+
+Exemplo:
+
+* **Cores padrão:** Adicione em `constants/colors.dart`.
+* **Função de formatação de data:** Coloque em `utils/date_utils.dart`.
+* **Botão customizado usado em varias telas:** Coloque em `partials/custom_button.dart`.
+
+A pasta **core** é essencial para promover um código limpo, organizado e profissional em projetos Flutter.
 
 <!-- Informações -->
 ## &#8505; Informações
