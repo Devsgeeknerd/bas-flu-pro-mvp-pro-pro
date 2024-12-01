@@ -70,6 +70,14 @@ Seu objetivo principal é centralizar e organizar elementos comuns do aplicativo
   * Manipulação de strings, como truncar, capitalizar.
   * Validação de entradas do usuário.
 
+#### Partials
+
+* Armazena widgets reutilizáveis que podem ser usados em várias telas ou recursos do aplicativo.
+* São componentes independentes e genéricos, como:
+  * Botões customizados.
+  * Inputs de texto estilizados.
+  * Spinner ou indicadores de carregamento.
+
 <!-- Informações -->
 ## &#8505; Informações
 
